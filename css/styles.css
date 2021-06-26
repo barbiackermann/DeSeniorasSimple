@@ -11019,7 +11019,7 @@ header.masthead .masthead-heading {
   background-color: #938cff !important;
   color: black;
   justify-content: center;
-  height: 8vh;
+  height: auto;
   border: none;
   border-radius: 30px;
   -webkit-border-radius: 30px;
