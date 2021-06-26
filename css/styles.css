@@ -11068,6 +11068,7 @@ header.masthead .masthead-heading {
     margin-bottom: 3vw;
   }
   .heather{
+    margin-top: 0;
     padding-left: 1.5rem;
     padding-right: 0;
   }
@@ -11077,7 +11078,6 @@ header.masthead .masthead-heading {
 }
 .heather{
   justify-content: center;
-  margin-top: 9vh;
   padding-left: 5vh;
 }
 .img-heather{
@@ -11391,4 +11391,8 @@ section#contact form#contactForm :-ms-input-placeholder {
 .footer-heather{
   margin: 1rem auto;
 } 
+.heather{
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+}
 }
