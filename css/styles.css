@@ -11381,5 +11381,14 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 .btn-icon>i{
   color: white;
-  font-size: 1.5vw;
+  font-size: 1.5rem
+}
+.footer-text{
+  font-size: 1rem
+}
+
+@media (max-width:481px){
+.footer-heather{
+  margin: 1rem auto;
+} 
 }
