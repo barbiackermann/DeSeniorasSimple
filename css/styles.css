@@ -2505,8 +2505,18 @@ textarea.form-control-lg {
   vertical-align: -1px;
 }
 .btn-cta:hover{
-	        background-color: #726cc9 !important;
-	        color: white;
+  background-color: #726cc9 !important;
+  color: white;
+  transform: scale(1.1);
+  transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -ms-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
 }
 
 .form-range {
@@ -3178,8 +3188,8 @@ textarea.form-control-lg {
 
 .btn-dark {
   color: #fff;
-  background-color: #212529;
-  border-color: #212529;
+  background-color: #35bdbc;
+  border-color: #35bdbc;
 }
 .btn-dark:hover {
   color: #fff;
@@ -11103,9 +11113,9 @@ header.masthead .masthead-heading {
   text-align: center;
 }
 .team-member img {
-  width: 14rem;
-  height: 14rem;
-  border: 0.5rem solid rgba(0, 0, 0, 0.1);
+  width: 10vw;
+  height: 10vw;
+  border: 0.5vw solid rgba(0, 0, 0, 0.1);
 }
 .team-member h4, .team-member .h4 {
   margin-top: 1.5rem;
@@ -11204,7 +11214,7 @@ section#contact .section-heading {
   text-align: center;
 }
 .offer-icon{
-  width: 80%;
+  width: 100%;
 }
 .offer-col{
   color: grey;
@@ -11215,12 +11225,17 @@ section#contact .section-heading {
   padding-bottom: 0.5vw;
   border-bottom: solid 1px #181818;
   margin-top: 1vw;
+  margin-bottom: 2vw;
   color: rgb(77, 76, 76);
   font-size: 1vw;
   font-weight: 600;
 }
+.offer-col>img{
+ display: block;
+ margin: auto;
+}
 .offer-col>ul{
-  height: auto;
+  min-height: 13vw;
   padding-left: 0;
   list-style: none;
 }
@@ -11242,13 +11257,14 @@ section#contact .section-heading {
     text-decoration: none;
 }
 .loquieroEX:hover{
-    background-color: black;
-    border-radius: 2vw;
-    -webkit-border-radius: 2vw;
-    -moz-border-radius: 2vw;
-    -ms-border-radius: 2vw;
-    -o-border-radius: 2vw;
-    padding: 0.5vw;
+  color: white;
+  background-color: #f6911e;
+  border-radius: 2vw;
+  -webkit-border-radius: 2vw;
+  -moz-border-radius: 2vw;
+  -ms-border-radius: 2vw;
+  -o-border-radius: 2vw;
+  padding: 0.5vw;
 }
 section#contact form#contactForm .form-group {
   margin-bottom: 1.5rem;
@@ -11306,3 +11322,11 @@ section#contact form#contactForm :-ms-input-placeholder {
   color: white;
   font-size: 1.5vw;
 }
+
+
+@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ }
+@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
+@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1281px) { /* hi-res laptops and desktops */ }
