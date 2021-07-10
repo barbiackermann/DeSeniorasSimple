@@ -2482,27 +2482,30 @@ textarea.form-control-lg {
   background-color: #938cff !important;
   color: black;
   justify-content: center;
-  height: 4vw;
+  height: 4rem;
   border: none;
-  border-radius: 30px;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  -ms-border-radius: 30px;
-  -o-border-radius: 30px;
-  font-size: 1.5vw;
+  border-radius: 50rem;
+  -webkit-border-radius: 50rem;
+  -moz-border-radius: 50rem;
+  -ms-border-radius: 50rem;
+  -o-border-radius: 50rem;
+  font-size: 1.5rem;
   font-weight: 600;
   margin: 3vw auto;
+  text-align: center;
+  padding: 0.5rem 2rem;
 }
 .btn-cta>a{
   text-decoration: none;
-  padding: 1vw;
+  padding: 0rem !important;
   vertical-align: top;
-  color: white
+  color: white;
+  text-align: center;
 }
 .btn-cta>a>i{
   text-decoration: none;
-  padding-right: 0.25vw;
-  vertical-align: -1px;
+  margin-right: 0.5rem;
+  vertical-align: center;
 }
 .btn-cta:hover{
   background-color: #726cc9 !important;
@@ -4012,7 +4015,7 @@ textarea.form-control-lg {
 .navbar-nav .dropdown-menu {
   position: static;
 }
-.nav-social{ /* mobile */
+.nav-social{
   flex-direction: row-reverse;
   justify-content: space-around;
 }
@@ -11195,17 +11198,17 @@ section#contact .section-heading {
 }
 .services{
   color: #555ca8;
-  padding-top: 2vw;
+  padding-top: 3rem;
   padding-bottom: 2vw;
 }
 .ofrecemos{
   color: #f6911e;
-  padding-top: 2vw;
+  padding-top: 3rem;
   padding-bottom: 0.75vw;
 }
 .clients{
   color: #65797a;
-  padding-top: 2vw;
+  padding-top: 3rem;
   padding-bottom: 0.75vw;
 }
 .services-line{
@@ -11219,7 +11222,7 @@ section#contact .section-heading {
 }
 .nosotras{
   color: #35bdbc;
-  padding-top: 2vw;
+  padding-top: 3rem;
   padding-bottom: 0.75vw;
 }
 .nosotras-line>h3{
@@ -11278,13 +11281,14 @@ section#contact .section-heading {
   width: 15rem;
 }
 .offer-col{
+  text-align: center;
   color: grey;
   padding: 1rem 3rem;
 }
 .offer-col>h6{
   display: block;
-  padding-bottom: 0.5vw;
-  border-bottom: solid 1px #181818;
+  padding-bottom: 0.5rem;
+  border-bottom: solid 2px grey;
   margin-top: 1vw;
   margin-bottom: 2vw;
   color: rgb(77, 76, 76);
@@ -11309,22 +11313,28 @@ section#contact .section-heading {
   text-align: center;
 }
 .loquieroEX{
-  color: #f6911e;
+  background-color: #f6911e;
   font-size: 1.25rem;
   font-weight: 600;
+  color: white;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
   padding: 0.5vw;
 }
 .btn-loquieroEX:hover{
     text-decoration: none;
 }
 .loquieroEX:hover{
+  background-color: #c26802;
   color: white;
-  background-color: #f6911e;
-  border-radius: 2vw;
-  -webkit-border-radius: 2vw;
-  -moz-border-radius: 2vw;
-  -ms-border-radius: 2vw;
-  -o-border-radius: 2vw;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
   padding: 0.5vw;
 }
 section#contact form#contactForm .form-group {
@@ -11388,11 +11398,11 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 @media (max-width:481px){
-.footer-heather{
-  margin: 1rem auto;
-} 
-.heather{
-  margin-top: 6rem;
-  margin-bottom: 2rem;
-}
+  .footer-heather{
+    margin: 1rem auto;
+  } 
+  .heather{
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+  }
 }
