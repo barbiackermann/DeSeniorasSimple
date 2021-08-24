@@ -11007,7 +11007,10 @@ header.masthead .masthead-heading {
   font-weight: 700;
   line-height: 5vh;
   margin-bottom: 2vh;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Quicksand', sans-serif, ;
+}
+.dese{
+  font-style: italic;
 }
 .main-text{
   padding: 5vw 10vw;
