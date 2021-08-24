@@ -3500,14 +3500,14 @@ textarea.form-control-lg {
   position: absolute;
   z-index: 1000;
   display: none;
-  min-width: 10rem;
+  min-width: 3rem;
   padding: 0.5rem 0;
   margin: 0;
   font-size: 1rem;
   color: #212529;
   text-align: left;
   list-style: none;
-  background-color: #fff;
+  background-color: #212529;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 0.25rem;
@@ -3708,7 +3708,7 @@ textarea.form-control-lg {
   padding: 0.25rem 1rem;
   clear: both;
   font-weight: 400;
-  color: #212529;
+  color: white;
   text-align: inherit;
   text-decoration: none;
   white-space: nowrap;
@@ -3943,9 +3943,7 @@ textarea.form-control-lg {
 .nav-pills .show > .nav-link {
   color: #fff;
   background-color: #ffc800;
-
 }
-
 .nav-fill > .nav-link,
 .nav-fill .nav-item {
   flex: 1 1 auto;
